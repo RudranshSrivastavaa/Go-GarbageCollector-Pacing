@@ -1497,20 +1497,20 @@ repository and linked here.
 ### `gctrace` early cycles
 
 <p align="center">
-  <img src="screenshots/gc-trace-head.png.png" alt="GoDis Architecture" width="1200"/>
+  <img src="screenshots/gc-trace-head.png" alt="GoDis Architecture" width="1200"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/gc-trace-head2.png.png" alt="GoDis Architecture" width="1200"/>
+  <img src="screenshots/gc-trace-head2.png" alt="GoDis Architecture" width="1200"/>
 </p>
 
 ### `gctrace` late cycles
 
 <p align="center">
-  <img src="screenshots/gc-trace-tail.png.png" alt="GoDis Architecture" width="1200"/>
+  <img src="screenshots/gc-trace-tail.png" alt="GoDis Architecture" width="1200"/>
 </p>
 <p align="center">
-  <img src="screenshots/gc-trace-tail2.png.png" alt="GoDis Architecture" width="1200"/>
+  <img src="screenshots/gc-trace-tail2.png" alt="GoDis Architecture" width="1200"/>
 </p>
 
 
