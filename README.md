@@ -1477,31 +1477,8 @@ grep "^gc " gc-100.txt | tail -10
 
 ------------------------------------------------------------------------
 
-# 29. Raw results / evidence links
 
-Replace the following dummy paths with the files you commit to your
-repository:
-
--   [Benchmark output --- all 50 runs](./results/benchmark-output.txt)
--   [GOGC=25 raw trace](./results/gc-25.txt)
--   [GOGC=50 raw trace](./results/gc-50.txt)
--   [GOGC=100 raw trace](./results/gc-100.txt)
--   [GOGC=200 raw trace](./results/gc-200.txt)
--   [GOGC=400 raw trace](./results/gc-400.txt)
--   [Benchmark summary screenshot](./screenshots/benchmark-summary.png)
--   [Early GC trace screenshot](./screenshots/gc-trace-head.png)
--   [Late GC trace screenshot](./screenshots/gc-trace-tail.png)
-
-### Optional: external repository
-
-Replace this placeholder with your GitHub repository:
-
-[GitHub repository ---
-PLACEHOLDER](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY)
-
-------------------------------------------------------------------------
-
-# 30. Screenshot placeholders
+# 29. Screenshot placeholders
 
 The screenshots shown during the experiment can be stored in your
 repository and linked here.
@@ -1526,30 +1503,9 @@ here](./screenshots/gc-trace-tail.png)
 
 ------------------------------------------------------------------------
 
-# 31. Suggested LinkedIn takeaway
 
-A technically safe version of the takeaway is:
 
-> I thought `GOGC` mainly controlled GC pauses, so I measured it.
->
-> On this allocation-heavy workload, increasing `GOGC` from 25 to 400
-> reduced GC cycles from roughly 3,400 to roughly 116 and reduced wall
-> time from about 2.4s to about 0.59s.
->
-> The trade-off was memory: `HeapSys` grew from roughly 15MB to well
-> over 150MB, reaching above 280MB in some runs.
->
-> The important part is that GC clock time is not the same as
-> stop-the-world pause time. `gctrace` shows concurrent marking
-> separately, along with CPU spent by GC workers and mark assists.
->
-> `GOGC` is therefore better understood as a pacing knob in a
-> CPU-vs-memory trade-off---not simply a knob for "how long GC pauses
-> are."
-
-------------------------------------------------------------------------
-
-# 32. What this experiment teaches
+# 30. What this experiment teaches
 
 The final mental model is:
 
