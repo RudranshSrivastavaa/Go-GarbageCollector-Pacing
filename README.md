@@ -1485,21 +1485,34 @@ repository and linked here.
 
 ### Benchmark summary
 
-[Paste/upload benchmark summary screenshot
-here](./screenshots/benchmark-summary.png)
+<p align="center">
+  <img src="screenshots/benchmark-summary.png" alt="GoDis Architecture" width="1200"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/benchmark-summary2.png" alt="GoDis Architecture" width="1200"/>
+</p>
+
 
 ### `gctrace` early cycles
 
-[Paste/upload early GC trace screenshot
-here](./screenshots/gc-trace-head.png)
+<p align="center">
+  <img src="screenshots/gc-trace-head.png.png" alt="GoDis Architecture" width="1200"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/gc-trace-head2.png.png" alt="GoDis Architecture" width="1200"/>
+</p>
 
 ### `gctrace` late cycles
 
-[Paste/upload late GC trace screenshot
-here](./screenshots/gc-trace-tail.png)
+<p align="center">
+  <img src="screenshots/gc-trace-tail.png.png" alt="GoDis Architecture" width="1200"/>
+</p>
+<p align="center">
+  <img src="screenshots/gc-trace-tail2.png.png" alt="GoDis Architecture" width="1200"/>
+</p>
 
-> The paths are intentionally placeholders. Create the `screenshots/`
-> directory in your repository and replace the filenames if needed.
 
 ------------------------------------------------------------------------
 
